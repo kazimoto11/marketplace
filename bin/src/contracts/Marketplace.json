@@ -1,0 +1,199 @@
+{
+    "contractName": "Marketplace",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/derickkazimoto/Desktop/FinTech_and_Cryptocurrencies/marketplace/src/contracts/Marketplace.sol\":\"Marketplace\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/derickkazimoto/Desktop/FinTech_and_Cryptocurrencies/marketplace/src/contracts/Marketplace.sol\":{\"keccak256\":\"0xd85567bbc5a360bc68f8eeec7d294cb8d09f87594eaa726165848da98765a996\",\"urls\":[\"bzzr://02652d8b9439df83897217a9d1f811f81164818020ad01189680ba27597e5369\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060408051808201909152601b8082527f4461707020556e6976657273697479204d61726b6574706c616365000000000060209092019182526100559160009161005b565b506100f6565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061009c57805160ff19168380011785556100c9565b828001600101855582156100c9579182015b828111156100c95782518255916020019190600101906100ae565b506100d59291506100d9565b5090565b6100f391905b808211156100d557600081556001016100df565b90565b610189806101056000396000f3fe6080604052600436106100405763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306fdde038114610045575b600080fd5b34801561005157600080fd5b5061005a6100cf565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561009457818101518382015260200161007c565b50505050905090810190601f1680156100c15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101555780601f1061012a57610100808354040283529160200191610155565b820191906000526020600020905b81548152906001019060200180831161013857829003601f168201915b50505050508156fea165627a7a723058201ca9e00b1e1be4ce706c6bba0b8e9f4de61cffc74b3170afaa0bab9e8c56fdc80029",
+    "deployedBytecode": "6080604052600436106100405763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306fdde038114610045575b600080fd5b34801561005157600080fd5b5061005a6100cf565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561009457818101518382015260200161007c565b50505050905090810190601f1680156100c15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101555780601f1061012a57610100808354040283529160200191610155565b820191906000526020600020905b81548152906001019060200180831161013857829003601f168201915b50505050508156fea165627a7a723058201ca9e00b1e1be4ce706c6bba0b8e9f4de61cffc74b3170afaa0bab9e8c56fdc80029",
+    "sourceMap": "26:127:0:-;;;77:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;108:36:0;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;108:36:0;:::i;:::-;;26:127;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;26:127:0;;;-1:-1:-1;26:127:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+    "deployedSourceMap": "26:127:0:-;;;;;;;;;;;;;;;;;;;;;;;52:18;;8:9:-1;5:2;;;30:1;27;20:12;5:2;52:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;52:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;52:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+    "sourcePath": "/Users/derickkazimoto/Desktop/FinTech_and_Cryptocurrencies/marketplace/src/contracts/Marketplace.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.5.0+commit.1d4f565a"
+    },
+    "ast": {
+        "absolutePath": "/Users/derickkazimoto/Desktop/FinTech_and_Cryptocurrencies/marketplace/src/contracts/Marketplace.sol",
+        "exportedSymbols": {
+            "Marketplace": [
+                12
+            ]
+        },
+        "id": 13,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:24:0"
+            },
+            {
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "documentation": null,
+                "fullyImplemented": true,
+                "id": 12,
+                "linearizedBaseContracts": [
+                    12
+                ],
+                "name": "Marketplace",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "name": "name",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 12,
+                        "src": "52:18:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "52:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": null,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 10,
+                            "nodeType": "Block",
+                            "src": "98:53:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "argumentTypes": null,
+                                        "id": 8,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "argumentTypes": null,
+                                            "id": 6,
+                                            "name": "name",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "108:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "argumentTypes": null,
+                                            "hexValue": "4461707020556e6976657273697479204d61726b6574706c616365",
+                                            "id": 7,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "115:29:0",
+                                            "subdenomination": null,
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_da4b6052d4e2657e92b9e8ac7ae34efe0016cdd765c6837ed00d7314b2dd8f36",
+                                                "typeString": "literal_string \"Dapp University Marketplace\""
+                                            },
+                                            "value": "Dapp University Marketplace"
+                                        },
+                                        "src": "108:36:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 9,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "108:36:0"
+                                }
+                            ]
+                        },
+                        "documentation": null,
+                        "id": 11,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "88:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "98:0:0"
+                        },
+                        "scope": 12,
+                        "src": "77:74:0",
+                        "stateMutability": "nonpayable",
+                        "superFunction": null,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 13,
+                "src": "26:127:0"
+            }
+        ],
+        "src": "0:153:0"
+    },
+    "functionHashes": {
+        "name()": "06fdde03"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "78600",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "name()": "infinite"
+        }
+    }
+}
